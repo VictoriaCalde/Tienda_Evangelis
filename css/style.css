@@ -1,0 +1,30 @@
+/* Fondo del carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Cards */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.carousel-item img {
+    height: 500px; /* Ajusta según el diseño */
+    object-fit: cover; /* Asegura que las imágenes mantengan proporción */
+    width: 100%; /* Asegura que ocupen todo el ancho */
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
